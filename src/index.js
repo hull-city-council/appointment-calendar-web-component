@@ -1,8 +1,6 @@
-import React from "react";
-import { render } from "react-dom";
+import r2wc from "@r2wc/react-to-web-component";
+import Calendar from "./Component/calendar";
 
-import App from "./App";
+const calendar = r2wc(Calendar, { props: ["date"] });
 
-const root = document.getElementById("root");
-
-render(<App />, root);
+customElements.define("calendar-web-component", calendar);

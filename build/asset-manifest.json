@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/appointment-calendar-web-component/static/js/main.66d7b42c.js",
+    "index.html": "/appointment-calendar-web-component/index.html",
+    "main.66d7b42c.js.map": "/appointment-calendar-web-component/static/js/main.66d7b42c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.66d7b42c.js"
+  ]
+}
